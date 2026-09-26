@@ -1,0 +1,219 @@
+{
+  "package": "com.ailifecompanion.app",
+  "versionName": "0.5.0",
+  "versionCode": 8,
+  "bytes": 124284445,
+  "sha256": "249E80BC3AB31A17394B94E0DE21B4734B903593D5D5D8DC36DAC0376FBA21D7",
+  "sourceCommit": "1304402b5a11d1e50a71fbc2215b86f7076de7f8",
+  "backendCommit": "17792ef",
+  "backendUrl": "https://ai-life-companion-api.onrender.com",
+  "repository": "clean",
+  "tests": {
+    "androidUnitDebug": {
+      "tests": 16,
+      "failures": 0
+    },
+    "androidUnitRelease": {
+      "tests": 16,
+      "failures": 0
+    },
+    "instrumentation": {
+      "tests": 2,
+      "failures": 0
+    },
+    "backend": {
+      "tests": 14,
+      "failures": 0
+    },
+    "lint": "PASS: 0 errors",
+    "assembleDebug": "PASS",
+    "apkSecretScan": "PASS",
+    "identityTechnical": "PASS: provenance, one face, contour geometry, segmentation alpha; not biometric identity",
+    "cloudHealth": "PASS",
+    "cloudChatWithMemoryContext": "PASS",
+    "cloudVoiceABC": "PASS",
+    "realtimeConnect": "PASS: listening state observed",
+    "experimental3DDefaultOff": "PASS",
+    "roomPhotographicComposition": "PASS: same-scene compositing visually inspected",
+    "imageSourceRefresh": "PASS: cache resets on source changes"
+  },
+  "subjective": {
+    "Character Likeness": "READY_FOR_HUMAN_REVIEW",
+    "Realistic Appearance": "READY_FOR_HUMAN_REVIEW",
+    "Natural Movement": "READY_FOR_HUMAN_REVIEW",
+    "Voice Pleasantness": "READY_FOR_HUMAN_REVIEW"
+  },
+  "device": "Pixel 7a Android 36 emulator; Samsung NOT TESTED",
+  "publicDownload": {
+    "result": "PASS",
+    "httpHead": 200,
+    "fullFileReassembledFromVerified206Ranges": true,
+    "bytes": 124284445,
+    "sha256": "249E80BC3AB31A17394B94E0DE21B4734B903593D5D5D8DC36DAC0376FBA21D7",
+    "zipCrc": "PASS",
+    "apkSignature": "PASS",
+    "signerCertificateSha256": "60de1edbae1de5be8cc69b2ca44aad509e1b492bfa1c4b22ecdb5017b404e4d7",
+    "package": "com.ailifecompanion.app",
+    "versionName": "0.5.0",
+    "versionCode": 8,
+    "secretScan": "PASS"
+  },
+  "videos": [
+    {
+      "name": "01_idle_realistic.mp4",
+      "events": [
+        {
+          "time": 1790441942231,
+          "type": "ready",
+          "detail": ""
+        },
+        {
+          "time": 1790441960238,
+          "type": "complete",
+          "detail": "{\"fps\":30.000001907348633,\"pose\":\"idle\",\"mouthAtRest\":true}"
+        }
+      ],
+      "audioNote": "talking soundtrack is the same PCM sent to AudioTrack, timestamp aligned; not external microphone capture"
+    },
+    {
+      "name": "02_blink_expression.mp4",
+      "events": [
+        {
+          "time": 1790441968419,
+          "type": "ready",
+          "detail": ""
+        },
+        {
+          "time": 1790441972425,
+          "type": "action",
+          "detail": "SMILE"
+        },
+        {
+          "time": 1790441975928,
+          "type": "action",
+          "detail": "SURPRISED"
+        },
+        {
+          "time": 1790441979433,
+          "type": "action",
+          "detail": "SHY"
+        },
+        {
+          "time": 1790441982936,
+          "type": "action",
+          "detail": "SAD"
+        },
+        {
+          "time": 1790441986437,
+          "type": "complete",
+          "detail": "{\"fps\":30.000001907348633,\"pose\":\"close\",\"mouthAtRest\":true}"
+        }
+      ],
+      "audioNote": "talking soundtrack is the same PCM sent to AudioTrack, timestamp aligned; not external microphone capture"
+    },
+    {
+      "name": "03_wave_realistic.mp4",
+      "events": [
+        {
+          "time": 1790441994545,
+          "type": "ready",
+          "detail": ""
+        },
+        {
+          "time": 1790441998548,
+          "type": "action",
+          "detail": "WAVE"
+        },
+        {
+          "time": 1790442005062,
+          "type": "action",
+          "detail": "WAVE"
+        },
+        {
+          "time": 1790442011563,
+          "type": "complete",
+          "detail": "{\"fps\":30.000001907348633,\"pose\":\"idle\",\"mouthAtRest\":true}"
+        }
+      ],
+      "audioNote": "talking soundtrack is the same PCM sent to AudioTrack, timestamp aligned; not external microphone capture"
+    },
+    {
+      "name": "04_come_closer.mp4",
+      "events": [
+        {
+          "time": 1790442021153,
+          "type": "ready",
+          "detail": ""
+        },
+        {
+          "time": 1790442025156,
+          "type": "action",
+          "detail": "COME_CLOSER"
+        },
+        {
+          "time": 1790442032158,
+          "type": "action",
+          "detail": "MOVE_AWAY"
+        },
+        {
+          "time": 1790442038660,
+          "type": "complete",
+          "detail": "{\"fps\":30.000001907348633,\"pose\":\"idle\",\"mouthAtRest\":true}"
+        }
+      ],
+      "audioNote": "talking soundtrack is the same PCM sent to AudioTrack, timestamp aligned; not external microphone capture"
+    },
+    {
+      "name": "05_sit_realistic.mp4",
+      "events": [
+        {
+          "time": 1790442047715,
+          "type": "ready",
+          "detail": ""
+        },
+        {
+          "time": 1790442051723,
+          "type": "action",
+          "detail": "SIT"
+        },
+        {
+          "time": 1790442059230,
+          "type": "action",
+          "detail": "STAND"
+        },
+        {
+          "time": 1790442065732,
+          "type": "complete",
+          "detail": "{\"fps\":30.000001907348633,\"pose\":\"idle\",\"mouthAtRest\":true}"
+        }
+      ],
+      "audioNote": "talking soundtrack is the same PCM sent to AudioTrack, timestamp aligned; not external microphone capture"
+    },
+    {
+      "name": "06_talking_lipsync.mp4",
+      "events": [
+        {
+          "time": 1790442074251,
+          "type": "ready",
+          "detail": ""
+        },
+        {
+          "time": 1790442082062,
+          "type": "play",
+          "detail": "340238"
+        },
+        {
+          "time": 1790442089548,
+          "type": "stop",
+          "detail": ""
+        },
+        {
+          "time": 1790442092551,
+          "type": "complete",
+          "detail": "{\"fps\":30.000001907348633,\"pose\":\"close\",\"mouthAtRest\":true}"
+        }
+      ],
+      "audioNote": "talking soundtrack is the same PCM sent to AudioTrack, timestamp aligned; not external microphone capture"
+    }
+  ]
+}

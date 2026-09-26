@@ -1,67 +1,52 @@
-# AI Life Companion 0.4.1
+# AI Life Companion 0.5.0 真人 2D 人工驗收版
 
-## Android 小晴、動作與聲音精修人工驗收版
+## [⬇ 下載 APK](https://github.com/gavin1424/ai-life-companion-android-downloads/releases/download/v0.5.0-realistic-2d/AI-Life-Companion-0.5.0.apk?sha=249E80BC3AB3)
 
-# [⬇ 下載 APK](https://github.com/gavin1424/ai-life-companion-android-downloads/releases/download/v0.4.1-refined/AI-Life-Companion-0.4.1.apk)
+正式首頁、聊天、語音通話改用原本小晴真人 identity 的 2D 動態角色。3D 保留於隱藏 Developer / Experimental，預設 OFF。既有雲端與產品資料流程保留。
 
-直接下載、覆蓋安裝並開啟；預設連接既有 HTTPS 雲端，不需要 USB、ADB 或電腦。
+- Package: `com.ailifecompanion.app`
+- versionName: **0.5.0** / versionCode: **8**
+- 大小: **124,284,445 bytes / 124.28 MB**
+- SHA-256: `249E80BC3AB31A17394B94E0DE21B4734B903593D5D5D8DC36DAC0376FBA21D7`
+- Source commit: `1304402b5a11d1e50a71fbc2215b86f7076de7f8`
 
-- Package：`com.ailifecompanion.app`
-- versionName：`0.4.1`；versionCode：`7`
-- 大小：127,396,213 bytes（127.40 MB）
-- SHA-256：`183399D76ABD3B8AFBC83B5509A3ED27966F016C873C349F4A09329A9047167D`
-- 原始碼 commit：`bf1215b4f4de8b523212c4d4f914151cf9e33aae`
-- [Cloud Backend health](https://ai-life-companion-api.onrender.com/health)
+## 人工驗收
 
-## 這次改了什麼
+Character Likeness、Realistic Appearance、Natural Movement、Voice Pleasantness 均為 **READY_FOR_HUMAN_REVIEW**。
 
-保留原生 Filament / glTF 與既有聊天、行走、互動、商城、旅行、相簿、Memory。調整小晴的臉部比例、肩長深棕髮、奶油色上衣及灰綠寬褲；修正頭髮自發光亮帶和貓／房間的網格朝向。走路增加加減速、距離同步步伐及腳底補償，招手加入手腕動作，坐起加入重心過渡。嘴型降低開口幅度並平滑 viseme 切換。
+[首頁](https://github.com/gavin1424/ai-life-companion-android-downloads/releases/download/v0.5.0-realistic-2d/home_realistic.png) · [聊天](https://github.com/gavin1424/ai-life-companion-android-downloads/releases/download/v0.5.0-realistic-2d/chat_realistic.png) · [Voice Chat](https://github.com/gavin1424/ai-life-companion-android-downloads/releases/download/v0.5.0-realistic-2d/voice_chat_realistic.png)
 
-## 最新畫面與影片
+## 動態影片
 
-[首頁](https://github.com/gavin1424/ai-life-companion-android-downloads/releases/download/v0.4.1-refined/home_refined.png) · [聊天](https://github.com/gavin1424/ai-life-companion-android-downloads/releases/download/v0.4.1-refined/chat_refined.png)
+- [待機 · 01_idle_realistic.mp4](https://github.com/gavin1424/ai-life-companion-android-downloads/releases/download/v0.5.0-realistic-2d/01_idle_realistic.mp4)
+- [眨眼與表情 · 02_blink_expression.mp4](https://github.com/gavin1424/ai-life-companion-android-downloads/releases/download/v0.5.0-realistic-2d/02_blink_expression.mp4)
+- [招手 · 03_wave_realistic.mp4](https://github.com/gavin1424/ai-life-companion-android-downloads/releases/download/v0.5.0-realistic-2d/03_wave_realistic.mp4)
+- [過來一下 · 04_come_closer.mp4](https://github.com/gavin1424/ai-life-companion-android-downloads/releases/download/v0.5.0-realistic-2d/04_come_closer.mp4)
+- [坐下休息 · 05_sit_realistic.mp4](https://github.com/gavin1424/ai-life-companion-android-downloads/releases/download/v0.5.0-realistic-2d/05_sit_realistic.mp4)
+- [說話嘴型 · 06_talking_lipsync.mp4](https://github.com/gavin1424/ai-life-companion-android-downloads/releases/download/v0.5.0-realistic-2d/06_talking_lipsync.mp4)
 
-- [walk_refined.mp4](https://github.com/gavin1424/ai-life-companion-android-downloads/releases/download/v0.4.1-refined/walk_refined.mp4) — 約 18 秒
-- [wave_refined.mp4](https://github.com/gavin1424/ai-life-companion-android-downloads/releases/download/v0.4.1-refined/wave_refined.mp4) — 約 18 秒
-- [sit_refined.mp4](https://github.com/gavin1424/ai-life-companion-android-downloads/releases/download/v0.4.1-refined/sit_refined.mp4) — 約 18 秒
-- [expression_refined.mp4](https://github.com/gavin1424/ai-life-companion-android-downloads/releases/download/v0.4.1-refined/expression_refined.mp4) — 約 18 秒
-- [voice_refined.mp4](https://github.com/gavin1424/ai-life-companion-android-downloads/releases/download/v0.4.1-refined/voice_refined.mp4) — 約 40 秒
+影片為模擬器實際螢幕錄影，約 22–30 秒。語音音軌由同次送往 AudioTrack 的 PCM 按播放時間對齊。Samsung 尚未實測。
 
-影片為 Pixel 7a / Android 36 模擬器。同一產品 renderer；語音音軌由同次雲端 TTS 返回並送往 AudioTrack 的 PCM 按時間對齊，不是外部麥克風錄製。未宣稱 Samsung 實測。
+## 同句 A / B / C
 
-## 同句聲音比較
+[A｜自然陪伴](https://github.com/gavin1424/ai-life-companion-android-downloads/releases/download/v0.5.0-realistic-2d/voice_A.mp3) · [B｜溫柔](https://github.com/gavin1424/ai-life-companion-android-downloads/releases/download/v0.5.0-realistic-2d/voice_B.mp3) · [C｜成熟柔和](https://github.com/gavin1424/ai-life-companion-android-downloads/releases/download/v0.5.0-realistic-2d/voice_C.mp3)
 
-[溫柔](https://github.com/gavin1424/ai-life-companion-android-downloads/releases/download/v0.4.1-refined/voice_gentle.mp3) · [自然](https://github.com/gavin1424/ai-life-companion-android-downloads/releases/download/v0.4.1-refined/voice_natural.mp3) · [成熟](https://github.com/gavin1424/ai-life-companion-android-downloads/releases/download/v0.4.1-refined/voice_mature.mp3)
+「嗨，今天過得怎麼樣？如果有點累，就先休息一下，我陪你聊聊天。」
 
-「嗨，今天過得怎麼樣？如果你累了，我可以陪你說說話。」
+App 設定 → 角色聲音可直接試聽並選擇。三段實際雲端生成樣本已內建，試聽不用等待連線。
 
-設定 → 角色聲音可直接試聽與選擇。新增陪伴感；溫柔預設以 0.96 語速、自然台灣中文、連貫語句與句意停頓調校。既有 Realtime、打斷及語音播放流程保留。
+## 技術驗證
 
-## 驗收結果
+Realistic2DAvatarEngine、Identity Consistency technical check、Blink、Expression、Wave、Come Closer、Sit、Lip Sync、Experimental 3D default OFF：PASS。Identity 技術檢查僅驗證來源、臉部輪廓與遮罩，不代替人工判斷相似度。
 
-PASS 指本輪模擬器與工程檢查；尚未完成主觀人工驗收的項目標為 FAIL／待人工，並非以 API 成功代替品質認可。
+Android 16 tests × Debug / Release、2 instrumentation tests、Backend 14 tests、lint 0 errors、assembleDebug、APK Secret Scan：PASS。Cloud Chat / memory context、三組 TTS、Realtime 連線回歸通過。
 
-| 項目 | 結果 |
-|---|---|
-| Character Likeness | FAIL／辨識度仍待人工確認 |
-| Hair Matching | PASS／深棕、肩長、髮尾弧度；瀏海仍風格化 |
-| Walk Animation Precision | PASS |
-| Wave Animation Precision | PASS |
-| Sit/Stand Transition | PASS |
-| Idle Naturalness | PASS／模擬器觀察 |
-| Facial Expression Clarity | PASS |
-| Voice Naturalness | FAIL／待人工試聽 |
-| Voice Pleasantness | FAIL／待人工試聽 |
-| Lip Sync Quality | PASS／頻譜估計，非精確 phoneme timing |
+姿勢使用攝影素材交疊過渡，非連續生成影片；交疊可能有短暫重影。Lip sync 為頻譜估計，非精確音素。完整姿勢包本輪專注小晴。
 
-Android 12 tests × Debug / Release、lint 0 errors、assembleDebug、Backend 13 tests、APK secret scan 通過。公開 Cloud Chat／拿鐵記憶回歸、三組 TTS 及 App 內文字聊天已實測。
+[完整說明](https://github.com/gavin1424/ai-life-companion-android-downloads/releases/download/v0.5.0-realistic-2d/README_AVATAR_050.md) · [驗證記錄](https://github.com/gavin1424/ai-life-companion-android-downloads/releases/download/v0.5.0-realistic-2d/verification-0.5.0.json)
 
-公開完整回下載：**PASS**，大小、SHA-256、ZIP CRC、簽章、Package 與版本均一致。
+房間已改為單一攝影場景內的人物去背合成，並修正圖片來源改變時的快取刷新。
 
-[完整技術說明與限制](README_AVATAR_041.md) · [驗證資料](verification-0.4.1.json)
+**公開下載回驗：PASS**。完整檔案 bytes、SHA-256、ZIP CRC、APK 簽章、Package、versionName 與 versionCode 均一致。公開檔案 Secret Scan 亦通過。
 
-小晴是 reference-guided 風格化角色，尚非照片本人 3D 重建。服裝非完整幾何替換、髮型無物理模擬；Render Free 可能冷啟動。相似度與聲音偏好請以人工驗收為準。
-
-## 舊版本
-
-[0.4.0 Release](https://github.com/gavin1424/ai-life-companion-android-downloads/releases/tag/v0.4.0-full-body)
+[先前 0.4.1 版本](https://github.com/gavin1424/ai-life-companion-android-downloads/releases/tag/v0.4.1-refined)
