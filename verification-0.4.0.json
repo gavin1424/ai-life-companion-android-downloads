@@ -145,5 +145,16 @@
         }
       }
     }
-  ]
+  ],
+  "publicDownload": {
+    "status": "PASS",
+    "http": 200,
+    "bytesMatch": true,
+    "sha256Match": true,
+    "zipCrc": "PASS",
+    "apkSignature": "PASS",
+    "package": "com.ailifecompanion.app",
+    "versionName": "0.4.0",
+    "versionCode": 6
+  }
 }
