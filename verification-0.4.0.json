@@ -1,0 +1,149 @@
+{
+  "versionName": "0.4.0",
+  "versionCode": 6,
+  "package": "com.ailifecompanion.app",
+  "sourceCommit": "b5210fcca4dcc5aefaa2ddb70cc7db05b5332bda",
+  "backendCommit": "4906654",
+  "backend": "https://ai-life-companion-api.onrender.com",
+  "apkBytes": 120075464,
+  "apkSha256": "C622886BDB8860F4FB5988546BCAFFC4FBD93A3BE15AD547BE6E400059CBC6C9",
+  "unitTests": {
+    "debug": 10,
+    "release": 10,
+    "failures": 0
+  },
+  "backendTests": 13,
+  "lintErrors": 0,
+  "apkSecretScan": "PASS",
+  "proofScope": "Android 36 Pixel 7a profile host GPU emulator. Realtime uses controlled PCM injection, not physical microphone. Soundtrack aligned from same input and queued playback PCM. No Samsung test or subjective naturalness claim.",
+  "videos": [
+    {
+      "file": "01_wave.mp4",
+      "bytes": 1038450,
+      "sha256": "b563e2bd029072d42f0b10b6f189c293adea2aa8cd514683468ab2e4a8c91d81",
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 720,
+            "height": 1600
+          }
+        ],
+        "format": {
+          "duration": "18.004996"
+        }
+      }
+    },
+    {
+      "file": "02_walk.mp4",
+      "bytes": 2028647,
+      "sha256": "31b7dac36f3ca79c1f9533939051d5e57d5e8e27a8f49184fdca0a2c33c58100",
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 720,
+            "height": 1600
+          }
+        ],
+        "format": {
+          "duration": "17.933120"
+        }
+      }
+    },
+    {
+      "file": "03_sit_stand.mp4",
+      "bytes": 1103051,
+      "sha256": "70431903ebaca8032f69d46f6c7df28e7655bc545c219f1fbc6d253aa6c3e2b1",
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 720,
+            "height": 1600
+          }
+        ],
+        "format": {
+          "duration": "17.949626"
+        }
+      }
+    },
+    {
+      "file": "04_expression.mp4",
+      "bytes": 1043244,
+      "sha256": "8cd15b68f866a5c2726365d2a76f5da989de9d6f6bd914b415afb0d209cde8dd",
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 720,
+            "height": 1600
+          }
+        ],
+        "format": {
+          "duration": "17.948506"
+        }
+      }
+    },
+    {
+      "file": "05_voice_chat.mp4",
+      "bytes": 2457445,
+      "sha256": "0d0cc48f4e17a41a1810ec1a41b874fae8612559d4a40f9aff4816de91b1ec71",
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 720,
+            "height": 1600
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "54.027000"
+        }
+      }
+    },
+    {
+      "file": "06_lipsync.mp4",
+      "bytes": 1436856,
+      "sha256": "f49c3f1b4f6a4426679d1ba999300fbd8c7aef7b80706a239c4fed429f74094c",
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 720,
+            "height": 1600
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "24.032000"
+        }
+      }
+    }
+  ]
+}
