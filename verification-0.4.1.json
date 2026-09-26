@@ -1,0 +1,47 @@
+{
+  "versionName": "0.4.1",
+  "versionCode": 7,
+  "package": "com.ailifecompanion.app",
+  "bytes": 127396213,
+  "sha256": "183399D76ABD3B8AFBC83B5509A3ED27966F016C873C349F4A09329A9047167D",
+  "sourceCommit": "bf1215b4f4de8b523212c4d4f914151cf9e33aae",
+  "backendCommit": "9cd615d",
+  "cloudBackend": "https://ai-life-companion-api.onrender.com",
+  "tests": {
+    "Debug": {
+      "tests": 12,
+      "failures": 0
+    },
+    "Release": {
+      "tests": 12,
+      "failures": 0
+    },
+    "lintErrors": 0,
+    "backend": 13,
+    "secretScan": "PASS",
+    "cloudChatMemory": "PASS",
+    "cloudVoiceABC": "PASS",
+    "appCloudChat": "PASS",
+    "publicDownload": "PASS - unauthenticated HTTP, full bytes and SHA-256, ZIP CRC, APK signature and manifest",
+    "voiceAuditionUI": "PASS"
+  },
+  "acceptance": {
+    "Character Likeness": "FAIL - reference-guided refinement completed; recognizability not yet accepted by user",
+    "Hair Matching": "PASS - shoulder length, dark brown and curved layers; stylized fringe remains",
+    "Walk Animation Precision": "PASS - emulator recording and acceleration/stop tests",
+    "Wave Animation Precision": "PASS - visible arm and wrist motion",
+    "Sit/Stand Transition": "PASS - continuous transition; ground penetration corrected",
+    "Idle Naturalness": "PASS - bounded breathing, gaze, head motion and blink in emulator",
+    "Facial Expression Clarity": "PASS - visible morph changes in recording",
+    "Voice Naturalness": "FAIL - cloud audio generated, pending subjective listening",
+    "Voice Pleasantness": "FAIL - pending user A/B/C preference",
+    "Lip Sync Quality": "PASS - amplitude-bounded estimated visemes and silence closure; not exact phonemes"
+  },
+  "videos": {
+    "expression_refined.mp4": 17.93832,
+    "sit_refined.mp4": 17.963,
+    "voice_refined.mp4": 39.911622,
+    "walk_refined.mp4": 18.00195,
+    "wave_refined.mp4": 17.88
+  }
+}
