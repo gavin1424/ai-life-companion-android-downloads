@@ -1,3 +1,44 @@
+# AI Life Companion 0.6.0 — HUMAN REVIEW BUILD
+
+## [⬇ 下載 APK](https://github.com/gavin1424/ai-life-companion-android-downloads/releases/download/v0.6.0-human-review/AI-Life-Companion-0.6.0.apk)
+
+下載 → 安裝 → 開啟 →「跟小晴說話」。使用公開 HTTPS Backend，不需要 USB、ADB 或本機伺服器。進入通話後持續收音，可直接插話；不是每句按一次麥克風。
+
+- Package：`com.ailifecompanion.app`
+- versionName：**0.6.0** ／ versionCode：**9**
+- APK：**131,852,679 bytes**
+- SHA-256：`AA49294204F281F6AFFF38A1DD5E446388D8140B544110281080C1327CA2B553`
+- Source commit：`684cc38634d03173cf5290fed0ebcfb61f0d2d17`
+
+## [最終 Android 連續錄影](https://github.com/gavin1424/ai-life-companion-android-downloads/releases/download/v0.6.0-human-review/android_realtime_avatar_final.mp4)
+
+約 140 秒，最終程式版本、同一 Session，多輪真實 OpenAI 回覆，沒有按角色動作按鈕。這是模擬器受控 PCM 輸入測試；音訊使用同次 AudioTrack PCM 對齊配回，並非 Samsung 真人收音證明。先前 139 秒影片標記 PRE_FINAL。
+
+## 聲音試聽
+
+[A 自然](https://github.com/gavin1424/ai-life-companion-android-downloads/releases/download/v0.6.0-human-review/Voice-A-Natural.m4a) · [B 溫柔](https://github.com/gavin1424/ai-life-companion-android-downloads/releases/download/v0.6.0-human-review/Voice-B-Gentle.m4a) · [C 成熟](https://github.com/gavin1424/ai-life-companion-android-downloads/releases/download/v0.6.0-human-review/Voice-C-Mature.m4a) · [D 陪伴](https://github.com/gavin1424/ai-life-companion-android-downloads/releases/download/v0.6.0-human-review/Voice-D-Companion.m4a)
+
+同句：「嗨，今天過得怎麼樣？如果有點累，我就在這裡陪你。」App 設定 → 角色聲音可試聽與選擇。
+
+## 驗收範圍
+
+Continuous Idle、Automatic Listen、Automatic Expression、Automatic Gesture、Streaming Speech、Lip Sync Pipeline、Barge-in Pipeline、Conversation Loop：**PASS（受控模擬器工程測試）**。
+
+Sit/Stand、Pet Cat：**EXPERIMENTAL**。素材尚未達品質要求，坐下快捷功能已從小晴首頁隱藏，沒有用假動作冒充。
+
+Samsung Physical Validation、Android VAD Samsung、AEC Samsung、Motion Naturalness、Lip Sync Naturalness、Voice Pleasantness、Character Likeness：**READY_FOR_HUMAN_REVIEW**。
+
+連點設定內 App Version 七次可開 Developer Settings → Realtime Diagnostics，查看 FPS、連線、VAD、角色／語音狀態與打斷次數。
+
+[完整版本說明](https://github.com/gavin1424/ai-life-companion-android-downloads/releases/download/v0.6.0-human-review/HUMAN_REVIEW_060.md) · [Build manifest](https://github.com/gavin1424/ai-life-companion-android-downloads/releases/download/v0.6.0-human-review/BUILD_MANIFEST.json)
+
+Build/test/lint、Backend tests、APK secret scan 通過。公開 APK 已重新下載核對大小、SHA-256、版本及簽章。
+
+---
+
+<details>
+<summary>歷史版本 0.5.0（非本次驗收版本）</summary>
+
 # AI Life Companion 0.5.0 真人 2D 人工驗收版
 
 ## [⬇ 下載 APK](https://github.com/gavin1424/ai-life-companion-android-downloads/releases/download/v0.5.0-realistic-2d/AI-Life-Companion-0.5.0.apk?sha=249E80BC3AB3)
@@ -50,3 +91,5 @@ Android 16 tests × Debug / Release、2 instrumentation tests、Backend 14 tests
 **公開下載回驗：PASS**。完整檔案 bytes、SHA-256、ZIP CRC、APK 簽章、Package、versionName 與 versionCode 均一致。公開檔案 Secret Scan 亦通過。
 
 [先前 0.4.1 版本](https://github.com/gavin1424/ai-life-companion-android-downloads/releases/tag/v0.4.1-refined)
+
+</details>
